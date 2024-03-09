@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Installation functions for the Lorem ipsum module.
+ * Installation functions for the module.
  */
 
 use Drupal\user\RoleInterface;
@@ -12,6 +12,6 @@ use Drupal\user\RoleInterface;
  */
 function helloworld_install() {
   user_role_change_permissions(RoleInterface::ANONYMOUS_ID, array(
-      'generate lorem ipsum' => TRUE,
+      'generate hello world' => TRUE,
   ));
 }

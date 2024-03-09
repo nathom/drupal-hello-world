@@ -10,7 +10,7 @@ use Drupal\Core\Session\AccountInterface;
 
 
  /**
- * Provides a Lorem ipsum block with which you can generate dummy text anywhere
+ * Provides a hello world block.
  *
  * @Block(
  *   id = "helloworld_block",
@@ -32,7 +32,7 @@ class HelloworldBlock extends BlockBase {
    * {@inheritdoc}
    */
   protected function blockAccess(AccountInterface $account) {
-    return AccessResult::allowedIfHasPermission($account, 'generate lorem ipsum');
+    return AccessResult::allowedIfHasPermission($account, 'generate hello world');
   }
 
   /**
