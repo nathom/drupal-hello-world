@@ -1,0 +1,6 @@
+# Define default links for this module.
+helloworld.form:
+  title: 'Configure Lorem ipsum'
+  description: 'Settings for filler text generation.'
+  route_name: helloworld.form
+  parent: system.admin_config_development

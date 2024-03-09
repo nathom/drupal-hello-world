@@ -1,0 +1,4 @@
+services:
+  helloworld.helloworld_service:
+    class: \Drupal\helloworld\Service\HelloworldService
+    arguments: []

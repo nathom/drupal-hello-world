@@ -1,0 +1,14 @@
+helloworld.generate:
+  path: '/helloworld/generate'
+  defaults:
+    _controller: '\Drupal\helloworld\Controller\HelloworldController::generate'
+  requirements:
+    _permission: 'generate hello world'
+
+helloworld.form:
+  path: '/admin/config/development/helloworld'
+  defaults:
+    _form: '\Drupal\helloworld\Form\HelloworldForm'
+    _title: 'Hello world settings'
+  requirements:
+    _permission: 'administer site configuration'

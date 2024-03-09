@@ -1,0 +1,6 @@
+name: Hello world
+type: module
+description: 'Hello world generator for Drupal'
+package: Development
+core_version_requirement: ^10
+configure: helloworld.form
